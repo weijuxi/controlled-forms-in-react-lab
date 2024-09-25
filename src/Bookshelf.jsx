@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import './Bookshelf.css';
+import './index.css';
 
 const Bookshelf = () => {
     const [books, setBooks] = useState([
